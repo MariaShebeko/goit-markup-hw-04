@@ -431,6 +431,14 @@ img {
 .footer a {
   text-decoration: none;
 }
+
+.footer-container {
+  display: flex;
+}
+
+.container-address {
+  margin-right: 70px;
+}
 .logo-light {
   display: block;
   margin-bottom: 20px;
@@ -469,6 +477,29 @@ img {
   color: var(--accent-color);
 }
 
+.container-social-list {
+  width: 206px;
+  margin-top: 12px;
+}
+
+.social-list-title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--primery-bgc);
+}
+
+.footer .social-list-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer .social-list-link:hover,
+.footer .social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer .social-list-icon {
+  fill: var(--primery-bgc);
+}
 /* ============== Portfolio page =============*/
 
 /* ============ Buttons (filtr) section ==========*/
