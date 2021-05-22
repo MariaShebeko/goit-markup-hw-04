@@ -280,14 +280,15 @@ img {
 }
 
 .advantages-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
 }
-.advantages-icon {
-  margin: 25px 100px;
-}
+
 /* ========== Our works section ===========*/
 
 .work-list {
@@ -399,7 +400,9 @@ img {
 }
 
 .client-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -412,7 +415,6 @@ img {
 }
 
 .client-icon {
-  margin: 16px 32px;
   fill: #afb1b8;
 }
 
@@ -434,6 +436,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .container-address {
@@ -477,15 +480,19 @@ img {
   color: var(--accent-color);
 }
 
-.container-social-list {
-  width: 206px;
-  margin-top: 12px;
-}
-
 .social-list-title {
   margin-bottom: 20px;
+
+  font-size: 14px;
   text-transform: uppercase;
   color: var(--primery-bgc);
+}
+
+.social-list-footer {
+  display: flex;
+}
+.footer .social-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .footer .social-list-link {
